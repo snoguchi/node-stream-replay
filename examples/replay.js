@@ -5,6 +5,5 @@ var replay = require('../').replay;
 
 var filename = process.argv[2];
 
-fs.createReadStream(filename)
-  .pipe(replay())
+replay(filename)
   .pipe(process.stdout);
