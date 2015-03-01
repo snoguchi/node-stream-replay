@@ -1,0 +1,7 @@
+{
+  "name": "stream-replay",
+  "version": "0.0.1",
+  "description": "record stream data and replay it according to timestamp",
+  "author": "Shinsuke Noguchi",
+  "main": "./lib/stream-replay.js"
+}
