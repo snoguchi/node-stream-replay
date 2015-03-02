@@ -6,5 +6,5 @@ var record = require('../').record;
 var filename = process.argv[2];
 
 process.stdin
-  .pipe(record(filename));
+  .pipe(record({path:filename}));
 
